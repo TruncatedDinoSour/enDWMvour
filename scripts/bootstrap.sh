@@ -25,10 +25,6 @@ main() {
     echo 'Before we start, make sure to have a stable internet connection, we will test it when you press enter'
     read -p 'Press enter to continue...'
 
-    info 'Testing internet connetion'
-    ping -n 5 google.com || (echo 'No stable internet connetion, you should stop the installation'; exit 1)
-
-
     info 'This script will overwrite and remove your current configs, back up or get a base system'
     name="Yes I want my files to be overwritten, do as I say $RANDOM from $HOME"
 
