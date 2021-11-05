@@ -1,0 +1,7 @@
+#!/bin/sh
+# DEPENDS ON: NONE
+
+bpad() {
+    printf ' '
+}
+
